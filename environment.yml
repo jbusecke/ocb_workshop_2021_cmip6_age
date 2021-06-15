@@ -1,0 +1,25 @@
+name: ocb_workshop_2021_cmip6_age
+channels:
+  - conda-forge
+dependencies:
+  # Required for full project functionality (dont remove)
+  - pytest
+  - ipykernel
+  - dask
+  - distributed
+  - intake-esm
+  - gcsfs
+  - cartopy
+  - xarray
+  - numpy
+  - scipy
+  - dask
+  - netcdf4
+  - pandas
+  - matplotlib
+  - cmocean
+  - zarr
+  - pip
+  - xarrayutils
+  - pip:
+      - git+https://github.com/jbusecke/cmip6_preprocessing.git
