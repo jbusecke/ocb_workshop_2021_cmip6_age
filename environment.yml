@@ -20,6 +20,5 @@ dependencies:
   - cmocean
   - zarr
   - pip
-  - xarrayutils
   - pip:
       - git+https://github.com/jbusecke/cmip6_preprocessing.git
